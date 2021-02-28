@@ -28,3 +28,5 @@
 - `sh_youtube` method : similarly as `sh_google` method,`youtube string` will search string on youtube.
 
 ## Working demo
+- Various features is demonstated in the GIF below.
+![](demo.gif)
