@@ -6,7 +6,6 @@
 - Make sure you have GCC compiler installed. If you don't refer [link](https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/)
 - Compile the shell using command `gcc aman-shell.c linkedlist.c utilities.c -o Shell.out`
 - Run using Command `./Shell.out`
-- Enter `help` for list of commands.
 
 ## Tech Stack used
 - All the functionalities are programmed in C language with the help of libraries such as "sys/wait.h", "sys/types.h", "signal.h" ... etc.
@@ -24,7 +23,7 @@
 - Running background jobs(by `sh_bg()` method) , listing all background jobs running at the moment (by `sh_bglist()` method) and also functionality to kill a running background job (`sh_kill()` method).
 
 ## Interesting additions
-- `sh_google()` method : This method will help you search google with whatever query you provide next to it. ***Usage*** : Simple `google` will open Google on your browser, and `google strings` will search strings on the same. You can also search for strings with multiple words separated by spaces.
+- `sh_google()` method : This method will help you search google with whatever query you provide next to it. ***Usage*** : Simple `google` will open Google on your browser, and `google strings` will search strings on the same.
 - `sh_youtube` method : similarly as `sh_google` method,`youtube string` will search string on youtube.
 
 ## Working demo
